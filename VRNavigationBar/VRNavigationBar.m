@@ -14,7 +14,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     
-    if(!_visible)
+    if(!_visible || !scrollView.contentSize.height)
         return;
     
     CGRect frame = self.navigationController.navigationBar.frame;
