@@ -21,7 +21,7 @@
     CGFloat size = frame.size.height - offsetTop;
     CGFloat framePercentageHidden = ((offsetTop - frame.origin.y) / (frame.size.height - 1));
     CGFloat scrollOffset = scrollView.contentOffset.y;
-    CGFloat scrollDiff = scrollOffset - self.previousScrollViewYOffset;
+    CGFloat scrollDiff = scrollOffset - self.previousOffset;
     CGFloat scrollHeight = scrollView.frame.size.height;
     CGFloat scrollContentSizeHeight = scrollView.contentSize.height + scrollView.contentInset.bottom;
     
@@ -35,7 +35,7 @@
     
     [self.navigationController.navigationBar setFrame:frame];
     [self updateBarButtonItems:(1 - framePercentageHidden)];
-    self.previousScrollViewYOffset = scrollOffset;
+    self.previousOffset = scrollOffset;
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView

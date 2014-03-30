@@ -10,7 +10,7 @@
 
 @interface VRNavigationBar : UITableViewController
 
-@property CGFloat previousScrollViewYOffset;
+@property CGFloat previousOffset;
 @property (getter = isVisble) BOOL visible;
 
 -(void)showNavigationBar;
