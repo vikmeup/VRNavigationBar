@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0CFFC4D-8DAE-4F51-A151-ED6CD8459BB4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VRNavigationBarExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B42D29F6-AC4B-4C2D-BA65-7B5D06E3F8D2</key>
+		<string>https://github.com/vikmeup/VRNavigationBar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/VRNavigationBarExample/VRNavigationBarExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B42D29F6-AC4B-4C2D-BA65-7B5D06E3F8D2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vikmeup/VRNavigationBar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B42D29F6-AC4B-4C2D-BA65-7B5D06E3F8D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B42D29F6-AC4B-4C2D-BA65-7B5D06E3F8D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VRNavigationBar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

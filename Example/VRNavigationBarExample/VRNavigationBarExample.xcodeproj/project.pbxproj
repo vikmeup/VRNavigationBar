@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7769DBD018EB363E00E50915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBCF18EB363E00E50915 /* Foundation.framework */; };
+		7769DBD218EB363E00E50915 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBD118EB363E00E50915 /* CoreGraphics.framework */; };
+		7769DBD418EB363E00E50915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBD318EB363E00E50915 /* UIKit.framework */; };
+		7769DBDA18EB363E00E50915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7769DBD818EB363E00E50915 /* InfoPlist.strings */; };
+		7769DBDC18EB363E00E50915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DBDB18EB363E00E50915 /* main.m */; };
+		7769DBE018EB363E00E50915 /* VRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DBDF18EB363E00E50915 /* VRAppDelegate.m */; };
+		7769DBE318EB363E00E50915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7769DBE118EB363E00E50915 /* Main.storyboard */; };
+		7769DBE818EB363E00E50915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7769DBE718EB363E00E50915 /* Images.xcassets */; };
+		7769DBEF18EB363E00E50915 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBEE18EB363E00E50915 /* XCTest.framework */; };
+		7769DBF018EB363E00E50915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBCF18EB363E00E50915 /* Foundation.framework */; };
+		7769DBF118EB363E00E50915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBD318EB363E00E50915 /* UIKit.framework */; };
+		7769DBF918EB363E00E50915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7769DBF718EB363E00E50915 /* InfoPlist.strings */; };
+		7769DBFB18EB363E00E50915 /* VRNavigationBarExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DBFA18EB363E00E50915 /* VRNavigationBarExampleTests.m */; };
+		7769DC0718EB367600E50915 /* VRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DC0618EB367600E50915 /* VRNavigationBar.m */; };
+		7769DC0A18EB36BE00E50915 /* VRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DC0918EB36BE00E50915 /* VRTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7769DBF218EB363E00E50915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7769DBC418EB363E00E50915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7769DBCB18EB363E00E50915;
+			remoteInfo = VRNavigationBarExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7769DBCC18EB363E00E50915 /* VRNavigationBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRNavigationBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7769DBCF18EB363E00E50915 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7769DBD118EB363E00E50915 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7769DBD318EB363E00E50915 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7769DBD718EB363E00E50915 /* VRNavigationBarExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VRNavigationBarExample-Info.plist"; sourceTree = "<group>"; };
+		7769DBD918EB363E00E50915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7769DBDB18EB363E00E50915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7769DBDD18EB363E00E50915 /* VRNavigationBarExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRNavigationBarExample-Prefix.pch"; sourceTree = "<group>"; };
+		7769DBDE18EB363E00E50915 /* VRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRAppDelegate.h; sourceTree = "<group>"; };
+		7769DBDF18EB363E00E50915 /* VRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRAppDelegate.m; sourceTree = "<group>"; };
+		7769DBE218EB363E00E50915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7769DBE718EB363E00E50915 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7769DBED18EB363E00E50915 /* VRNavigationBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRNavigationBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7769DBEE18EB363E00E50915 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7769DBF618EB363E00E50915 /* VRNavigationBarExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VRNavigationBarExampleTests-Info.plist"; sourceTree = "<group>"; };
+		7769DBF818EB363E00E50915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7769DBFA18EB363E00E50915 /* VRNavigationBarExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRNavigationBarExampleTests.m; sourceTree = "<group>"; };
+		7769DC0518EB367600E50915 /* VRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRNavigationBar.h; path = ../../VRNavigationBar/VRNavigationBar.h; sourceTree = "<group>"; };
+		7769DC0618EB367600E50915 /* VRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VRNavigationBar.m; path = ../../VRNavigationBar/VRNavigationBar.m; sourceTree = "<group>"; };
+		7769DC0818EB36BE00E50915 /* VRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRTableViewController.h; sourceTree = "<group>"; };
+		7769DC0918EB36BE00E50915 /* VRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7769DBC918EB363E00E50915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769DBD218EB363E00E50915 /* CoreGraphics.framework in Frameworks */,
+				7769DBD418EB363E00E50915 /* UIKit.framework in Frameworks */,
+				7769DBD018EB363E00E50915 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7769DBEA18EB363E00E50915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769DBEF18EB363E00E50915 /* XCTest.framework in Frameworks */,
+				7769DBF118EB363E00E50915 /* UIKit.framework in Frameworks */,
+				7769DBF018EB363E00E50915 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7769DBC318EB363E00E50915 = {
+			isa = PBXGroup;
+			children = (
+				7769DC0418EB366000E50915 /* VRNavaigationBar */,
+				7769DBD518EB363E00E50915 /* VRNavigationBarExample */,
+				7769DBF418EB363E00E50915 /* VRNavigationBarExampleTests */,
+				7769DBCE18EB363E00E50915 /* Frameworks */,
+				7769DBCD18EB363E00E50915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7769DBCD18EB363E00E50915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7769DBCC18EB363E00E50915 /* VRNavigationBarExample.app */,
+				7769DBED18EB363E00E50915 /* VRNavigationBarExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7769DBCE18EB363E00E50915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7769DBCF18EB363E00E50915 /* Foundation.framework */,
+				7769DBD118EB363E00E50915 /* CoreGraphics.framework */,
+				7769DBD318EB363E00E50915 /* UIKit.framework */,
+				7769DBEE18EB363E00E50915 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7769DBD518EB363E00E50915 /* VRNavigationBarExample */ = {
+			isa = PBXGroup;
+			children = (
+				7769DBE118EB363E00E50915 /* Main.storyboard */,
+				7769DBE718EB363E00E50915 /* Images.xcassets */,
+				7769DBDE18EB363E00E50915 /* VRAppDelegate.h */,
+				7769DBDF18EB363E00E50915 /* VRAppDelegate.m */,
+				7769DC0818EB36BE00E50915 /* VRTableViewController.h */,
+				7769DC0918EB36BE00E50915 /* VRTableViewController.m */,
+				7769DBD618EB363E00E50915 /* Supporting Files */,
+			);
+			path = VRNavigationBarExample;
+			sourceTree = "<group>";
+		};
+		7769DBD618EB363E00E50915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7769DBD718EB363E00E50915 /* VRNavigationBarExample-Info.plist */,
+				7769DBD818EB363E00E50915 /* InfoPlist.strings */,
+				7769DBDB18EB363E00E50915 /* main.m */,
+				7769DBDD18EB363E00E50915 /* VRNavigationBarExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7769DBF418EB363E00E50915 /* VRNavigationBarExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7769DBFA18EB363E00E50915 /* VRNavigationBarExampleTests.m */,
+				7769DBF518EB363E00E50915 /* Supporting Files */,
+			);
+			path = VRNavigationBarExampleTests;
+			sourceTree = "<group>";
+		};
+		7769DBF518EB363E00E50915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7769DBF618EB363E00E50915 /* VRNavigationBarExampleTests-Info.plist */,
+				7769DBF718EB363E00E50915 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7769DC0418EB366000E50915 /* VRNavaigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7769DC0518EB367600E50915 /* VRNavigationBar.h */,
+				7769DC0618EB367600E50915 /* VRNavigationBar.m */,
+			);
+			name = VRNavaigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7769DBCB18EB363E00E50915 /* VRNavigationBarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7769DBFE18EB363E00E50915 /* Build configuration list for PBXNativeTarget "VRNavigationBarExample" */;
+			buildPhases = (
+				7769DBC818EB363E00E50915 /* Sources */,
+				7769DBC918EB363E00E50915 /* Frameworks */,
+				7769DBCA18EB363E00E50915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRNavigationBarExample;
+			productName = VRNavigationBarExample;
+			productReference = 7769DBCC18EB363E00E50915 /* VRNavigationBarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7769DBEC18EB363E00E50915 /* VRNavigationBarExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7769DC0118EB363E00E50915 /* Build configuration list for PBXNativeTarget "VRNavigationBarExampleTests" */;
+			buildPhases = (
+				7769DBE918EB363E00E50915 /* Sources */,
+				7769DBEA18EB363E00E50915 /* Frameworks */,
+				7769DBEB18EB363E00E50915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7769DBF318EB363E00E50915 /* PBXTargetDependency */,
+			);
+			name = VRNavigationBarExampleTests;
+			productName = VRNavigationBarExampleTests;
+			productReference = 7769DBED18EB363E00E50915 /* VRNavigationBarExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7769DBC418EB363E00E50915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "SIX DAYS LLC";
+				TargetAttributes = {
+					7769DBEC18EB363E00E50915 = {
+						TestTargetID = 7769DBCB18EB363E00E50915;
+					};
+				};
+			};
+			buildConfigurationList = 7769DBC718EB363E00E50915 /* Build configuration list for PBXProject "VRNavigationBarExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7769DBC318EB363E00E50915;
+			productRefGroup = 7769DBCD18EB363E00E50915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7769DBCB18EB363E00E50915 /* VRNavigationBarExample */,
+				7769DBEC18EB363E00E50915 /* VRNavigationBarExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7769DBCA18EB363E00E50915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769DBE818EB363E00E50915 /* Images.xcassets in Resources */,
+				7769DBDA18EB363E00E50915 /* InfoPlist.strings in Resources */,
+				7769DBE318EB363E00E50915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7769DBEB18EB363E00E50915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769DBF918EB363E00E50915 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7769DBC818EB363E00E50915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769DC0718EB367600E50915 /* VRNavigationBar.m in Sources */,
+				7769DC0A18EB36BE00E50915 /* VRTableViewController.m in Sources */,
+				7769DBE018EB363E00E50915 /* VRAppDelegate.m in Sources */,
+				7769DBDC18EB363E00E50915 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7769DBE918EB363E00E50915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769DBFB18EB363E00E50915 /* VRNavigationBarExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7769DBF318EB363E00E50915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7769DBCB18EB363E00E50915 /* VRNavigationBarExample */;
+			targetProxy = 7769DBF218EB363E00E50915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7769DBD818EB363E00E50915 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7769DBD918EB363E00E50915 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7769DBE118EB363E00E50915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7769DBE218EB363E00E50915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7769DBF718EB363E00E50915 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7769DBF818EB363E00E50915 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7769DBFC18EB363E00E50915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7769DBFD18EB363E00E50915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7769DBFF18EB363E00E50915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VRNavigationBarExample/VRNavigationBarExample-Prefix.pch";
+				INFOPLIST_FILE = "VRNavigationBarExample/VRNavigationBarExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7769DC0018EB363E00E50915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VRNavigationBarExample/VRNavigationBarExample-Prefix.pch";
+				INFOPLIST_FILE = "VRNavigationBarExample/VRNavigationBarExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7769DC0218EB363E00E50915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VRNavigationBarExample.app/VRNavigationBarExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VRNavigationBarExample/VRNavigationBarExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VRNavigationBarExampleTests/VRNavigationBarExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7769DC0318EB363E00E50915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VRNavigationBarExample.app/VRNavigationBarExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VRNavigationBarExample/VRNavigationBarExample-Prefix.pch";
+				INFOPLIST_FILE = "VRNavigationBarExampleTests/VRNavigationBarExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7769DBC718EB363E00E50915 /* Build configuration list for PBXProject "VRNavigationBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7769DBFC18EB363E00E50915 /* Debug */,
+				7769DBFD18EB363E00E50915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7769DBFE18EB363E00E50915 /* Build configuration list for PBXNativeTarget "VRNavigationBarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7769DBFF18EB363E00E50915 /* Debug */,
+				7769DC0018EB363E00E50915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7769DC0118EB363E00E50915 /* Build configuration list for PBXNativeTarget "VRNavigationBarExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7769DC0218EB363E00E50915 /* Debug */,
+				7769DC0318EB363E00E50915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7769DBC418EB363E00E50915 /* Project object */;
+}
