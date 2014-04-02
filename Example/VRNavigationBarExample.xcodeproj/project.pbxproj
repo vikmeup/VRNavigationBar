@@ -20,8 +20,8 @@
 		7769DBF118EB363E00E50915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769DBD318EB363E00E50915 /* UIKit.framework */; };
 		7769DBF918EB363E00E50915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7769DBF718EB363E00E50915 /* InfoPlist.strings */; };
 		7769DBFB18EB363E00E50915 /* VRNavigationBarExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DBFA18EB363E00E50915 /* VRNavigationBarExampleTests.m */; };
-		7769DC0718EB367600E50915 /* VRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DC0618EB367600E50915 /* VRNavigationBar.m */; };
 		7769DC0A18EB36BE00E50915 /* VRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DC0918EB36BE00E50915 /* VRTableViewController.m */; };
+		7769DC0D18EBA3C100E50915 /* VRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7769DC0C18EBA3C100E50915 /* VRNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +52,10 @@
 		7769DBF618EB363E00E50915 /* VRNavigationBarExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VRNavigationBarExampleTests-Info.plist"; sourceTree = "<group>"; };
 		7769DBF818EB363E00E50915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7769DBFA18EB363E00E50915 /* VRNavigationBarExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRNavigationBarExampleTests.m; sourceTree = "<group>"; };
-		7769DC0518EB367600E50915 /* VRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRNavigationBar.h; path = ../../VRNavigationBar/VRNavigationBar.h; sourceTree = "<group>"; };
-		7769DC0618EB367600E50915 /* VRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VRNavigationBar.m; path = ../../VRNavigationBar/VRNavigationBar.m; sourceTree = "<group>"; };
 		7769DC0818EB36BE00E50915 /* VRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRTableViewController.h; sourceTree = "<group>"; };
 		7769DC0918EB36BE00E50915 /* VRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRTableViewController.m; sourceTree = "<group>"; };
+		7769DC0B18EBA3C100E50915 /* VRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VRNavigationBar.h; path = ../VRNavigationBar/VRNavigationBar.h; sourceTree = "<group>"; };
+		7769DC0C18EBA3C100E50915 /* VRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VRNavigationBar.m; path = ../VRNavigationBar/VRNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		7769DC0418EB366000E50915 /* VRNavaigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				7769DC0518EB367600E50915 /* VRNavigationBar.h */,
-				7769DC0618EB367600E50915 /* VRNavigationBar.m */,
+				7769DC0B18EBA3C100E50915 /* VRNavigationBar.h */,
+				7769DC0C18EBA3C100E50915 /* VRNavigationBar.m */,
 			);
 			name = VRNavaigationBar;
 			sourceTree = "<group>";
@@ -263,8 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7769DC0718EB367600E50915 /* VRNavigationBar.m in Sources */,
 				7769DC0A18EB36BE00E50915 /* VRTableViewController.m in Sources */,
+				7769DC0D18EBA3C100E50915 /* VRNavigationBar.m in Sources */,
 				7769DBE018EB363E00E50915 /* VRAppDelegate.m in Sources */,
 				7769DBDC18EB363E00E50915 /* main.m in Sources */,
 			);
@@ -394,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VRNavigationBarExample/VRNavigationBarExample-Prefix.pch";
 				INFOPLIST_FILE = "VRNavigationBarExample/VRNavigationBarExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VRNavigationBarExample/VRNavigationBarExample-Prefix.pch";
 				INFOPLIST_FILE = "VRNavigationBarExample/VRNavigationBarExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +473,7 @@
 				7769DC0018EB363E00E50915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7769DC0118EB363E00E50915 /* Build configuration list for PBXNativeTarget "VRNavigationBarExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +482,7 @@
 				7769DC0318EB363E00E50915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
