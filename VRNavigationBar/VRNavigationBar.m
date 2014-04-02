@@ -3,7 +3,6 @@
 //  scroll
 //
 //  Created by Viktor Radchenko on 3/30/14.
-//  Copyright (c) 2014 SIX DAYS LLC. All rights reserved.
 //
 
 #import "VRNavigationBar.h"
