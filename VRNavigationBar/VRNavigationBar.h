@@ -13,7 +13,7 @@
 @property CGFloat previousOffset;
 @property (getter = isVisble) BOOL visible;
 
--(void)showNavigationBar;
--(void)hideNagigationBar;
+- (void)showNavigationBar;
+- (void)hideNagigationBar;
 
 @end

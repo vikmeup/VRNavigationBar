@@ -11,10 +11,13 @@
 
 @implementation VRNavigationBar
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
     
-    if(!_visible || !scrollView.contentSize.height)
+    if (!_visible || !scrollView.contentSize.height){
         return;
+    }
+    
     
     CGRect frame = self.navigationController.navigationBar.frame;
     CGFloat size = frame.size.height - offsetTop;
@@ -39,12 +42,14 @@
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
-    if(!_visible)
+    if (!_visible) {
         return;
+    }
     [self stoppedScrolling];
 }
 
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
     
     if (!decelerate) {
         [self stoppedScrolling];
@@ -54,6 +59,7 @@
 - (void)stoppedScrolling
 {
     CGRect frame = self.navigationController.navigationBar.frame;
+    
     if (frame.origin.y < offsetTop) {
         [self animateNavBarTo:-(frame.size.height - offsetTop)];
     }
@@ -61,18 +67,19 @@
 
 - (void)updateBarButtonItems:(CGFloat)alpha
 {
-    [self.navigationItem.leftBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem* item, NSUInteger i, BOOL *stop) {
+    [self.navigationItem.leftBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem *item, NSUInteger i, BOOL *stop) {
         item.customView.alpha = alpha;
     }];
-    [self.navigationItem.rightBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem* item, NSUInteger i, BOOL *stop) {
+    [self.navigationItem.rightBarButtonItems enumerateObjectsUsingBlock:^(UIBarButtonItem *item, NSUInteger i, BOOL *stop) {
         item.customView.alpha = alpha;
     }];
     self.navigationItem.titleView.alpha = alpha;
     self.navigationController.navigationBar.tintColor = [self.navigationController.navigationBar.tintColor colorWithAlphaComponent:alpha];
 }
 
-- (void)animateNavBarTo:(CGFloat)y{
-    if(!_visible){
+- (void)animateNavBarTo:(CGFloat)y
+{
+    if (!_visible) {
         [UIView animateWithDuration:0.2 animations:^{
             CGRect frame = self.navigationController.navigationBar.frame;
             CGFloat alpha = (frame.origin.y >= y ? 0 : 1);
@@ -83,7 +90,8 @@
     }
 }
 
--(void)showNavigationBar{
+- (void)showNavigationBar
+{
     
     [UIView animateWithDuration:0.2 animations:^{
         CGRect frame = self.navigationController.navigationBar.frame;
@@ -94,7 +102,8 @@
     }];
 }
 
--(void)hideNagigationBar{
+- (void)hideNagigationBar
+{
     
     [UIView animateWithDuration:0.2 animations:^{
         CGRect frame = self.navigationController.navigationBar.frame;
